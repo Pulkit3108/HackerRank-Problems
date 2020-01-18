@@ -1,4 +1,10 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
 
+public class Solution {
     static Scanner scan = new Scanner(System.in);
     static boolean flag = true;
     static int B = scan.nextInt();
@@ -18,4 +24,14 @@
     }
 
 
+
+public static void main(String[] args){
+		if(flag){
+			int area=B*H;
+			System.out.print(area);
+		}
+		
+	}//end of main
+
+}//end of class
 
