@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() 
+{ char ch,b[100],a[100];
+ scanf("%c", &ch);
+ scanf("%s", &a);
+ scanf(" %[^\n]%*c",b);
+ printf("%c\n",ch);
+ printf("%s\n",a);
+printf("%s",b);
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    return 0;
+}
+
