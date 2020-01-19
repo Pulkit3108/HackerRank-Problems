@@ -1,0 +1,8 @@
+a=list(map(int,input().split()))
+b=[0]*26
+s=input()
+x=len(s)
+for i in range(0,len(s)):
+    b[i]=a[ord(s[i])-97]
+y=max(b)
+print(x*y)
